@@ -23,8 +23,8 @@
 #import "BlacklistApps.h"
 
 @interface BlacklistApps(Local)
-- (BOOL)isJavaApp:(NSBundle*)bunlde;
-- (BOOL)isBlacklistApp:(NSString*)bunldeIdentifier withKey:(NSString*)key;
+- (BOOL)isJavaApp:(NSBundle*)bundle;
+- (BOOL)isBlacklistApp:(NSString*)bundleIdentifier withKey:(NSString*)key;
 @end
 
 @implementation BlacklistApps
